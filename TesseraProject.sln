@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{51FA9EB6-0D99-4540-911B-0C307FC5C7DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tessera.DataAccess", "src\Tessera.DataAccess\Tessera.DataAccess.csproj", "{D77BAF07-EE67-439A-8E23-60BD06374228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tessera.Business", "src\Tessera.Business\Tessera.Business.csproj", "{CE07CB19-800E-4D20-A1AA-4BDB701D6AF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D77BAF07-EE67-439A-8E23-60BD06374228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77BAF07-EE67-439A-8E23-60BD06374228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77BAF07-EE67-439A-8E23-60BD06374228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77BAF07-EE67-439A-8E23-60BD06374228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE07CB19-800E-4D20-A1AA-4BDB701D6AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE07CB19-800E-4D20-A1AA-4BDB701D6AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE07CB19-800E-4D20-A1AA-4BDB701D6AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE07CB19-800E-4D20-A1AA-4BDB701D6AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D77BAF07-EE67-439A-8E23-60BD06374228} = {51FA9EB6-0D99-4540-911B-0C307FC5C7DC}
+		{CE07CB19-800E-4D20-A1AA-4BDB701D6AF0} = {51FA9EB6-0D99-4540-911B-0C307FC5C7DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00A60950-74FB-4643-BF63-D78DA4DA7CCA}
+	EndGlobalSection
+EndGlobal
